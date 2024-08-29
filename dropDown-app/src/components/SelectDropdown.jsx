@@ -6,7 +6,7 @@ const SelectDropdown = ({ options, placeholder, onSelect, disabled }) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [focusedIndex, setFocusedIndex] = useState(-1);
   const dropdownRef = useRef(null);
-
+  //handle when clicked
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
     onSelect(option.id);
