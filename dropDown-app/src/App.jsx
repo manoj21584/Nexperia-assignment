@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Select Dropdown Example</h1>
+      <h1>Select Dropdown Assignment</h1>
       <SelectDropdown
         options={options}
         placeholder="Select an option"
